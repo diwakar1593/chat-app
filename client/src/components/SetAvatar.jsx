@@ -9,7 +9,6 @@ import axios from "axios";
 import { setAvatarRoute } from "../utils/APIRoutes";
 
 function SetAvatar() {
-  const api = "https://api.multiavatar.com/4645646";
   const navigate = useNavigate();
   const [avatars, setAvatars] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
